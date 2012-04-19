@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Stundenplangen : Generate an iCal calendar for lectures at KIT" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Stundenplangen</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/lorenzhs/stundenplangen">Fork Me on GitHub</a>
+
+          <h1 id="project_title">Stundenplangen</h1>
+          <h2 id="project_tagline">Generate an iCal calendar for lectures at KIT</h2>
+
+          <section id="downloads">
+            <a class="zip_download_link" href="https://github.com/lorenzhs/stundenplangen/zipball/master">Download this project as a .zip file</a>
+            <a class="tar_download_link" href="https://github.com/lorenzhs/stundenplangen/tarball/master">Download this project as a tar.gz file</a>
+          </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome to StundenplanGen.</h3>
+
+<p>This is StundenplanGen, a small script to convert dumps of KIT's Vorlesungsverzeichnis (university calendar). Sadly, the only available option is "export to PDF", downloading your schedule as an iCal file is not possible. This is where StundenplanGen comes in: You go to your lectures' detail view pages, grab all the contents from your browser window and save them to a file. Then you call StundenplanGen on those files:</p>
+
+<pre><code>$ python stundenplan.py infile1 [infile2 [infile3 [...]] schedule.ics
+</code></pre>
+
+<p>You're now ready to import your schedule into your favorite calendar application.</p>
+
+<h3>Problems?</h3>
+
+<p>If stuff breaks for you, please file a bug and I'll do my best to fix it. And please, do me a favor, don't look at the code. It's ugly.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Stundenplangen maintained by <a href="https://github.com/lorenzhs">lorenzhs</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
