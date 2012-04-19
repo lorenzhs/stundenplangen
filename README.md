@@ -20,7 +20,7 @@ License
 
 You'll find the exact license in the source code, but it's really just a filled-out version of Wikipedia's template for the ISC license. So go ahead and make the uglyness disappear!
 
-TODO and Warning
+Todo and Warning
 ----------------
 
-This is not exactly neat code and I only tested it on two lectures. Please let me know if it breaks.
+This is not exactly neat code (I *really* need to clean this up) and I only tested it on my lectures, so please let me know if it breaks.
